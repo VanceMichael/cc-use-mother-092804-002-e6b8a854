@@ -1,0 +1,305 @@
+{
+  "domain": "yuan-porcelain-stamp",
+  "version": 1,
+  "institutions": [
+    { "id": "M1", "name": "甲博物馆" },
+    { "id": "M2", "name": "乙博物馆" },
+    { "id": "M3", "name": "丙博物馆" },
+    { "id": "M4", "name": "丁博物馆" },
+    { "id": "M5", "name": "戊博物馆" }
+  ],
+  "artifacts": [
+    {
+      "id": "A1",
+      "name": "青花缠枝牡丹纹梅瓶",
+      "institution_id": "M1",
+      "provenance": { "kind": "传世", "detail": "馆藏旧藏,1952年登记入库" },
+      "decoration": "缠枝牡丹纹",
+      "visibility": "公开",
+      "internal_note": "库藏编号内-甲-011,库房三层"
+    },
+    {
+      "id": "A2",
+      "name": "青花云龙纹罐",
+      "institution_id": "M2",
+      "provenance": { "kind": "出土", "detail": "城北遗址窖藏出土" },
+      "decoration": "云龙纹",
+      "visibility": "公开",
+      "internal_note": "库藏编号内-乙-204"
+    },
+    {
+      "id": "A3",
+      "name": "青花鱼藻纹盘",
+      "institution_id": "M3",
+      "provenance": { "kind": "传世", "detail": "社会征集入藏" },
+      "decoration": "鱼藻纹",
+      "visibility": "公开",
+      "internal_note": "库藏编号内-丙-077"
+    },
+    {
+      "id": "A4",
+      "name": "青花人物故事图瓶",
+      "institution_id": "M4",
+      "provenance": { "kind": "传世", "detail": "私人捐赠入藏" },
+      "decoration": "人物故事图",
+      "visibility": "公开",
+      "internal_note": "库藏编号内-丁-158"
+    },
+    {
+      "id": "A5",
+      "name": "青花折枝花卉纹碗",
+      "institution_id": "M5",
+      "provenance": { "kind": "出土", "detail": "南岸墓葬出土" },
+      "decoration": "折枝花卉纹",
+      "visibility": "公开",
+      "internal_note": "库藏编号内-戊-032"
+    },
+    {
+      "id": "A6",
+      "name": "青花瑞兽纹尊",
+      "institution_id": "M2",
+      "provenance": { "kind": "传世", "detail": "馆际调拨入藏" },
+      "decoration": "瑞兽纹",
+      "visibility": "内部",
+      "internal_note": "库藏编号内-乙-319,尚未公布"
+    }
+  ],
+  "licenses": [
+    {
+      "id": "L1",
+      "artifact_id": "A1",
+      "granted_by": "M1",
+      "scope": ["邮票", "小型张", "首日封", "宣传册"],
+      "valid_from": "2025-01-01",
+      "valid_until": "2027-12-31",
+      "status": "有效"
+    },
+    {
+      "id": "L2",
+      "artifact_id": "A2",
+      "granted_by": "M2",
+      "scope": ["邮票", "首日封", "宣传册"],
+      "valid_from": "2025-06-01",
+      "valid_until": "2026-06-30",
+      "status": "到期"
+    },
+    {
+      "id": "L3",
+      "artifact_id": "A3",
+      "granted_by": "M3",
+      "scope": ["邮票", "首日封", "宣传册"],
+      "valid_from": "2025-01-01",
+      "valid_until": "2028-12-31",
+      "status": "有效"
+    },
+    {
+      "id": "L4",
+      "artifact_id": "A4",
+      "granted_by": "M4",
+      "scope": ["邮票", "宣传册"],
+      "valid_from": "2025-01-01",
+      "valid_until": "2028-12-31",
+      "status": "有效"
+    },
+    {
+      "id": "L5",
+      "artifact_id": "A5",
+      "granted_by": "M5",
+      "scope": ["邮票", "首日封", "宣传册"],
+      "valid_from": "2025-01-01",
+      "valid_until": "2028-12-31",
+      "status": "有效"
+    },
+    {
+      "id": "L6",
+      "artifact_id": "A6",
+      "granted_by": "M2",
+      "scope": ["小型张"],
+      "valid_from": "2025-01-01",
+      "valid_until": "2028-12-31",
+      "status": "有效"
+    }
+  ],
+  "designs": [
+    {
+      "id": "D1",
+      "artifact_id": "A1",
+      "version": 1,
+      "license_id": "L1",
+      "decoration": "缠枝牡丹纹",
+      "status": "已批准",
+      "history": [
+        { "version": 1, "decision": "批准", "by": "集邮项目负责人", "at": "2025-03-01" }
+      ]
+    },
+    {
+      "id": "D2",
+      "artifact_id": "A2",
+      "version": 1,
+      "license_id": "L2",
+      "decoration": "云龙纹",
+      "status": "已批准",
+      "history": [
+        { "version": 1, "decision": "批准", "by": "集邮项目负责人", "at": "2025-07-01" }
+      ]
+    },
+    {
+      "id": "D3",
+      "artifact_id": "A3",
+      "version": 1,
+      "license_id": "L3",
+      "decoration": "莲池鱼藻纹",
+      "status": "已批准",
+      "history": [
+        { "version": 1, "decision": "批准", "by": "集邮项目负责人", "at": "2025-03-01" }
+      ]
+    },
+    {
+      "id": "D4",
+      "artifact_id": "A4",
+      "version": 1,
+      "license_id": "L4",
+      "decoration": "人物故事图",
+      "status": "已批准",
+      "history": [
+        { "version": 1, "decision": "批准", "by": "集邮项目负责人", "at": "2025-03-01" }
+      ]
+    },
+    {
+      "id": "D5",
+      "artifact_id": "A5",
+      "version": 1,
+      "license_id": "L5",
+      "decoration": "折枝花卉纹",
+      "status": "已批准",
+      "history": [
+        { "version": 1, "decision": "批准", "by": "集邮项目负责人", "at": "2025-03-01" }
+      ]
+    },
+    {
+      "id": "D6",
+      "artifact_id": "A6",
+      "version": 1,
+      "license_id": "L6",
+      "decoration": "瑞兽纹",
+      "status": "已批准",
+      "history": [
+        { "version": 1, "decision": "批准", "by": "集邮项目负责人", "at": "2025-08-01" }
+      ]
+    },
+    {
+      "id": "D7",
+      "artifact_id": "A1",
+      "version": 2,
+      "license_id": "L1",
+      "decoration": "缠枝牡丹纹",
+      "status": "待审",
+      "history": [
+        { "version": 2, "decision": "提交", "by": "设计人员", "at": "2026-09-15" }
+      ]
+    }
+  ],
+  "materials": [
+    { "id": "S1", "kind": "邮票", "title": "元青花特种邮票第一枚", "uses": ["D1"], "frozen": true },
+    { "id": "S2", "kind": "邮票", "title": "元青花特种邮票第二枚", "uses": ["D2"], "frozen": false },
+    { "id": "S3", "kind": "邮票", "title": "元青花特种邮票第三枚", "uses": ["D3"], "frozen": true },
+    { "id": "S4", "kind": "邮票", "title": "元青花特种邮票第四枚", "uses": ["D4"], "frozen": true },
+    { "id": "S5", "kind": "邮票", "title": "元青花特种邮票第五枚", "uses": ["D5"], "frozen": true },
+    { "id": "Z1", "kind": "小型张", "title": "元青花小型张", "uses": ["D6"], "frozen": false },
+    { "id": "F1", "kind": "首日封", "title": "元青花首日封甲", "uses": ["D1"], "frozen": true },
+    { "id": "F2", "kind": "首日封", "title": "元青花首日封乙", "uses": ["D2"], "frozen": false },
+    {
+      "id": "P1",
+      "kind": "宣传册",
+      "title": "元青花邮票宣传册",
+      "uses": ["D1", "D2", "D3", "D4", "D5"],
+      "frozen": true
+    }
+  ],
+  "batches": [
+    {
+      "id": "B1",
+      "material_id": "S1",
+      "process": "胶雕套印",
+      "quantity": 1000,
+      "status": "已完成",
+      "completed_at": "2026-03-10",
+      "basis": {
+        "uses": [
+          { "design_id": "D1", "version": 1, "license_id": "L1" }
+        ]
+      }
+    },
+    {
+      "id": "B2",
+      "material_id": "S2",
+      "process": "胶雕套印",
+      "quantity": 1200,
+      "status": "暂停"
+    },
+    {
+      "id": "B3",
+      "material_id": "S3",
+      "process": "胶雕套印",
+      "quantity": 1000,
+      "status": "已完成",
+      "completed_at": "2026-03-10",
+      "basis": {
+        "uses": [
+          { "design_id": "D3", "version": 1, "license_id": "L3" }
+        ]
+      }
+    },
+    {
+      "id": "B4",
+      "material_id": "Z1",
+      "process": "影写版",
+      "quantity": 800,
+      "status": "暂停"
+    },
+    {
+      "id": "B5",
+      "material_id": "F1",
+      "process": "起凸",
+      "quantity": 500,
+      "status": "已完成",
+      "completed_at": "2026-03-12",
+      "basis": {
+        "uses": [
+          { "design_id": "D1", "version": 1, "license_id": "L1" }
+        ]
+      }
+    },
+    {
+      "id": "B6",
+      "material_id": "P1",
+      "process": "胶印",
+      "quantity": 2000,
+      "status": "已完成",
+      "completed_at": "2026-05-01",
+      "basis": {
+        "uses": [
+          { "design_id": "D1", "version": 1, "license_id": "L1" },
+          { "design_id": "D2", "version": 1, "license_id": "L2" },
+          { "design_id": "D3", "version": 1, "license_id": "L3" },
+          { "design_id": "D4", "version": 1, "license_id": "L4" },
+          { "design_id": "D5", "version": 1, "license_id": "L5" }
+        ]
+      }
+    }
+  ],
+  "receipts": [
+    { "id": "R1", "batch_id": "B1", "quantity": 1000 },
+    { "id": "R2", "batch_id": "B3", "quantity": 1000 },
+    { "id": "R3", "batch_id": "B5", "quantity": 500 },
+    { "id": "R4", "batch_id": "B6", "quantity": 2000 }
+  ],
+  "holds": [
+    { "id": "H1", "stage": "印制", "reason": "授权到期", "license_id": "L2", "status": "未解除" },
+    { "id": "H2", "stage": "设计", "reason": "图像更正", "artifact_id": "A3", "status": "已解除" },
+    { "id": "H3", "stage": "印制", "reason": "批次异常", "batch_id": "B4", "status": "未解除" }
+  ],
+  "reviews": [
+    { "id": "Q1", "subject": "decoration:D3", "status": "待复核" }
+  ]
+}
