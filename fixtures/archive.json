@@ -1,0 +1,1690 @@
+{
+  "events": [
+    {
+      "seq": 1,
+      "at": "2025-01-06T09:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "museum.registered",
+      "payload": {
+        "id": "pala",
+        "name": "故宫博物院",
+        "public_note": "故宫博物院藏历代陶瓷向公众常设展出"
+      },
+      "digest": "b033310938e76e1a8f4cb96823e6f3c609d7ff10f2b99e3e830ba6ebced57f22"
+    },
+    {
+      "seq": 2,
+      "at": "2025-01-06T09:01:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "museum.registered",
+      "payload": {
+        "id": "njmuseum",
+        "name": "南京市博物馆",
+        "public_note": "馆址位于南京朝天宫"
+      },
+      "digest": "8b1ca6720907e48606f289f0d2091025f4e16aca936cdd6ac845778b18dcc979"
+    },
+    {
+      "seq": 3,
+      "at": "2025-01-06T09:02:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "museum.registered",
+      "payload": {
+        "id": "hbmuseum",
+        "name": "湖北省博物馆",
+        "public_note": "位于武汉东湖之滨"
+      },
+      "digest": "e8229d3a67fab38433bf9822b99743b8485502521cd465b96b641af567151b02"
+    },
+    {
+      "seq": 4,
+      "at": "2025-01-06T09:03:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "museum.registered",
+      "payload": {
+        "id": "gamuseum",
+        "name": "高安市博物馆",
+        "public_note": "藏有1980年元代窖藏出土元青花群"
+      },
+      "digest": "cdf90566ecb429d3433440605527e5b9b24b80782d46837731d13077be226656"
+    },
+    {
+      "seq": 5,
+      "at": "2025-01-06T09:04:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "museum.registered",
+      "payload": {
+        "id": "iranmm",
+        "name": "伊朗国家博物馆",
+        "public_note": "藏有阿迪比尔陵寺旧藏中国瓷器"
+      },
+      "digest": "908cf6bbb46c7b25fcb701c9e545473d862da67f9972906ff5470f7f1ee11b2a"
+    },
+    {
+      "seq": 6,
+      "at": "2025-01-07T09:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "artifact.registered",
+      "payload": {
+        "id": "art-guwan-peony-jar",
+        "museum_id": "pala",
+        "name": "青花缠枝牡丹纹罐",
+        "era": "元代",
+        "origin_type": "handed_down",
+        "origin_note": "清宫旧藏，历代递藏脉络清晰（示例记载）",
+        "ornament": "腹部缠枝牡丹，肩饰海水与八宝",
+        "public_description": "元代景德镇窑青花大器，胎体厚重、发色浓艳。",
+        "internal_note": "库区青瓷架B-12，例行提库需双人签字"
+      },
+      "digest": "a3de12b991598eba3a1c320f60177cd71916e1d9362f83d8f35559c8934679ed"
+    },
+    {
+      "seq": 7,
+      "at": "2025-01-07T09:01:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "artifact.registered",
+      "payload": {
+        "id": "art-xiaohe-meiping",
+        "museum_id": "njmuseum",
+        "name": "青花萧何月下追韩信图梅瓶",
+        "era": "元代",
+        "origin_type": "excavated",
+        "origin_note": "南京江宁将军山沐氏家族墓出土（示例记载）",
+        "ornament": "腹部绘萧何月下追韩信历史人物故事",
+        "public_description": "元青花人物故事名品，1959年入藏南京市博物馆。",
+        "internal_note": "展厅独立恒温柜，外借须馆务会审批"
+      },
+      "digest": "08975ca25bdf86c68f16020cb70d679361ce33f70baa9e93c25af4ec02bdd6fe"
+    },
+    {
+      "seq": 8,
+      "at": "2025-01-07T09:02:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "artifact.registered",
+      "payload": {
+        "id": "art-siai-meiping",
+        "museum_id": "hbmuseum",
+        "name": "青花四爱图梅瓶",
+        "era": "元代",
+        "origin_type": "excavated",
+        "origin_note": "湖北钟祥明郢靖王墓出土（示例记载）",
+        "ornament": "肩部四组菱形开光，分绘王羲之爱兰等四爱图",
+        "public_description": "元代青花梅瓶代表，器形饱满、层次繁密。",
+        "internal_note": "出土残片比对档案号 HB-2001-07"
+      },
+      "digest": "1aa378c9aefd010877b3aa13188a594d3c78483411909bcac1e4830e085cd184"
+    },
+    {
+      "seq": 9,
+      "at": "2025-01-07T09:03:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "artifact.registered",
+      "payload": {
+        "id": "art-gaoyao-lidded",
+        "museum_id": "gamuseum",
+        "name": "青花云龙纹带盖梅瓶",
+        "era": "元代",
+        "origin_type": "excavated",
+        "origin_note": "1980年江西高安元代窖藏出土（示例记载）",
+        "ornament": "器身云龙纹，盖饰印花卷草",
+        "public_description": "窖藏出土元青花带盖梅瓶，盖内有墨书墨迹。",
+        "internal_note": "盖与器身分开保管，提用须核对墨书编号"
+      },
+      "digest": "599bcdca7b54649b0d5f6d0b8e072f63961fe84ff6fd02f7840fe376688fdb24"
+    },
+    {
+      "seq": 10,
+      "at": "2025-01-07T09:04:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "artifact.registered",
+      "payload": {
+        "id": "art-iran-phoenix-plate",
+        "museum_id": "iranmm",
+        "name": "青花蓝地白花云肩凤纹菱花口大盘",
+        "era": "元代",
+        "origin_type": "handed_down",
+        "origin_note": "阿迪比尔陵寺旧藏，后入藏伊朗国家博物馆（示例记载）",
+        "ornament": "菱花口，云肩形开光内绘双凤，地子留白反侧",
+        "public_description": "元代外销青花大盘代表，适应伊斯兰地区围坐分食习惯。",
+        "internal_note": "海外联展运输专用箱编号 IR-OV-03"
+      },
+      "digest": "9a449a17b3b6c2ddb3034da11738452b0fd46a3acd34fa9b8497348403bb10be"
+    },
+    {
+      "seq": 11,
+      "at": "2025-01-07T09:05:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "artifact.registered",
+      "payload": {
+        "id": "art-iran-peony-jar",
+        "museum_id": "iranmm",
+        "name": "青花缠枝牡丹云龙纹罐",
+        "era": "元代",
+        "origin_type": "handed_down",
+        "origin_note": "阿迪比尔陵寺旧藏，入藏登记存在异本（示例记载）",
+        "ornament": "下腹云龙，上腹缠枝牡丹",
+        "public_description": "元代青花大罐，与蓝地白花大盘同属陵寺旧藏群。",
+        "internal_note": "旧登记卡与陵寺瓷目编号需再核"
+      },
+      "digest": "2240a4f66521430bed06114eb568a7605e628a54a05f2309645c845afd42f1cd"
+    },
+    {
+      "seq": 12,
+      "at": "2025-01-08T09:00:00Z",
+      "actor": "museum:pala:藏品保管岗",
+      "action": "image.added",
+      "payload": {
+        "id": "img-art-guwan-peony-jar-v1",
+        "artifact_id": "art-guwan-peony-jar",
+        "version": 1,
+        "created_at": "2025-01-08T09:00:00Z",
+        "note": "馆方提供的专业摄影底图",
+        "supersedes": null
+      },
+      "digest": "e8f5bb415033e9991265af25a0d5ce28b4e0b8d607c4f6616d4b4a7b79b70f89"
+    },
+    {
+      "seq": 13,
+      "at": "2025-01-08T09:01:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "license.granted",
+      "payload": {
+        "id": "lic-art-guwan-peony-jar-v1",
+        "image_id": "img-art-guwan-peony-jar-v1",
+        "museum_id": "pala",
+        "scope": "stamp,souvenir_sheet,first_day_cover,brochure",
+        "granted_at": "2025-01-09",
+        "valid_from": "2025-01-09T00:00:00Z",
+        "valid_until": "2026-12-31T23:59:59Z"
+      },
+      "digest": "560e561a3b9e03c792dffdbc967cde8354ebce5e14964932c6a4509dcc76a290"
+    },
+    {
+      "seq": 14,
+      "at": "2025-01-08T09:02:00Z",
+      "actor": "museum:njmuseum:藏品保管岗",
+      "action": "image.added",
+      "payload": {
+        "id": "img-art-xiaohe-meiping-v1",
+        "artifact_id": "art-xiaohe-meiping",
+        "version": 1,
+        "created_at": "2025-01-08T09:00:00Z",
+        "note": "馆方提供的专业摄影底图",
+        "supersedes": null
+      },
+      "digest": "e479988b77cbf75e76256e43d4435afd0970a74f9b88eb543c7ed14118bae19a"
+    },
+    {
+      "seq": 15,
+      "at": "2025-01-08T09:03:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "license.granted",
+      "payload": {
+        "id": "lic-art-xiaohe-meiping-v1",
+        "image_id": "img-art-xiaohe-meiping-v1",
+        "museum_id": "njmuseum",
+        "scope": "stamp,souvenir_sheet,first_day_cover,brochure",
+        "granted_at": "2025-01-09",
+        "valid_from": "2025-01-09T00:00:00Z",
+        "valid_until": "2026-12-31T23:59:59Z"
+      },
+      "digest": "00cf8736d9a2185579b56757b8cb86aa8b8271d15434fbc04c94d181bc073f04"
+    },
+    {
+      "seq": 16,
+      "at": "2025-01-08T09:04:00Z",
+      "actor": "museum:hbmuseum:藏品保管岗",
+      "action": "image.added",
+      "payload": {
+        "id": "img-art-siai-meiping-v1",
+        "artifact_id": "art-siai-meiping",
+        "version": 1,
+        "created_at": "2025-01-08T09:00:00Z",
+        "note": "馆方提供的专业摄影底图",
+        "supersedes": null
+      },
+      "digest": "d7da4520a016920c6af5b75eb9cdd3d1f014b782dfd616419c9593e819a6c82d"
+    },
+    {
+      "seq": 17,
+      "at": "2025-01-08T09:05:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "license.granted",
+      "payload": {
+        "id": "lic-art-siai-meiping-v1",
+        "image_id": "img-art-siai-meiping-v1",
+        "museum_id": "hbmuseum",
+        "scope": "stamp,souvenir_sheet,first_day_cover,brochure",
+        "granted_at": "2025-01-09",
+        "valid_from": "2025-01-09T00:00:00Z",
+        "valid_until": "2026-12-31T23:59:59Z"
+      },
+      "digest": "ca39dd69f4373e21c5a7986e1278e2a112006045bd6e3032a824695a66316b0c"
+    },
+    {
+      "seq": 18,
+      "at": "2025-01-08T09:06:00Z",
+      "actor": "museum:gamuseum:藏品保管岗",
+      "action": "image.added",
+      "payload": {
+        "id": "img-art-gaoyao-lidded-v1",
+        "artifact_id": "art-gaoyao-lidded",
+        "version": 1,
+        "created_at": "2025-01-08T09:00:00Z",
+        "note": "馆方提供的专业摄影底图",
+        "supersedes": null
+      },
+      "digest": "3466eddc6e296714dba6c2008db3eed1506791e557aa7fed2ac2e186f6cea0e1"
+    },
+    {
+      "seq": 19,
+      "at": "2025-01-08T09:07:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "license.granted",
+      "payload": {
+        "id": "lic-art-gaoyao-lidded-v1",
+        "image_id": "img-art-gaoyao-lidded-v1",
+        "museum_id": "gamuseum",
+        "scope": "stamp,souvenir_sheet,first_day_cover,brochure",
+        "granted_at": "2025-01-09",
+        "valid_from": "2025-01-09T00:00:00Z",
+        "valid_until": "2025-06-30T23:59:59Z"
+      },
+      "digest": "5e7b9d8be459803320cf21b90023ba2fc542d2a8f46df6cb8fa7e64bd06e8a9a"
+    },
+    {
+      "seq": 20,
+      "at": "2025-01-08T09:08:00Z",
+      "actor": "museum:iranmm:藏品保管岗",
+      "action": "image.added",
+      "payload": {
+        "id": "img-art-iran-phoenix-plate-v1",
+        "artifact_id": "art-iran-phoenix-plate",
+        "version": 1,
+        "created_at": "2025-01-08T09:00:00Z",
+        "note": "馆方提供的专业摄影底图",
+        "supersedes": null
+      },
+      "digest": "5c0fcf49b8fbe0351e54e6ddad12023a64e28c446bbf3a77bb58750c19254473"
+    },
+    {
+      "seq": 21,
+      "at": "2025-01-08T09:09:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "license.granted",
+      "payload": {
+        "id": "lic-art-iran-phoenix-plate-v1",
+        "image_id": "img-art-iran-phoenix-plate-v1",
+        "museum_id": "iranmm",
+        "scope": "stamp,souvenir_sheet,first_day_cover,brochure",
+        "granted_at": "2025-01-09",
+        "valid_from": "2025-01-09T00:00:00Z",
+        "valid_until": "2026-12-31T23:59:59Z"
+      },
+      "digest": "42ff7995bcdded635d175601a4f2287759399058f2a09a060eb58ac5ce5c96f0"
+    },
+    {
+      "seq": 22,
+      "at": "2025-01-08T09:10:00Z",
+      "actor": "museum:iranmm:藏品保管岗",
+      "action": "image.added",
+      "payload": {
+        "id": "img-art-iran-peony-jar-v1",
+        "artifact_id": "art-iran-peony-jar",
+        "version": 1,
+        "created_at": "2025-01-08T09:00:00Z",
+        "note": "馆方提供的专业摄影底图",
+        "supersedes": null
+      },
+      "digest": "c1786ec6958bd0c77abaf6e9be9f495d29327350d36d940fb215297e5c0d7b93"
+    },
+    {
+      "seq": 23,
+      "at": "2025-01-08T09:11:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "license.granted",
+      "payload": {
+        "id": "lic-art-iran-peony-jar-v1",
+        "image_id": "img-art-iran-peony-jar-v1",
+        "museum_id": "iranmm",
+        "scope": "stamp,souvenir_sheet,first_day_cover,brochure",
+        "granted_at": "2025-01-09",
+        "valid_from": "2025-01-09T00:00:00Z",
+        "valid_until": "2026-12-31T23:59:59Z"
+      },
+      "digest": "839c2c00231e6479007191bbd7e00509c6c3be690fd37aeae2c811945595f40b"
+    },
+    {
+      "seq": 24,
+      "at": "2025-02-10T09:00:00Z",
+      "actor": "designer:stamp-studio:主设岗",
+      "action": "design.created",
+      "payload": {
+        "id": "design-1",
+        "artifact_id": "art-guwan-peony-jar",
+        "title": "元青花·缠枝牡丹",
+        "revision": 1,
+        "image_id": "img-art-guwan-peony-jar-v1",
+        "license_id": "lic-art-guwan-peony-jar-v1",
+        "created_by": "designer:stamp-studio:主设岗",
+        "ornament_text": "腹部缠枝牡丹，肩饰海水与八宝"
+      },
+      "digest": "5d9fbc71850879069ca9e34e437aa3dc758dd29858fe5c361935e71daa2a3f6a"
+    },
+    {
+      "seq": 25,
+      "at": "2025-02-10T09:01:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "design.approved",
+      "payload": {
+        "id": "approval-1-r1",
+        "design_id": "design-1",
+        "revision": 1,
+        "decided_at": "2025-02-12T10:00:00Z",
+        "approver": "manager:stamp-office:发行项目岗",
+        "decision": "approved",
+        "remark": "构图与纹饰核对无误，同意付印",
+        "basis_refs": [
+          "img-art-guwan-peony-jar-v1",
+          "lic-art-guwan-peony-jar-v1"
+        ]
+      },
+      "digest": "0dc2a3403bca0377c9f5a66eb0a3e1d26b0e75439c3f06963e13dcff70eaf26a"
+    },
+    {
+      "seq": 26,
+      "at": "2025-02-10T09:02:00Z",
+      "actor": "designer:stamp-studio:主设岗",
+      "action": "design.created",
+      "payload": {
+        "id": "design-2",
+        "artifact_id": "art-xiaohe-meiping",
+        "title": "元青花·萧何月下追韩信",
+        "revision": 1,
+        "image_id": "img-art-xiaohe-meiping-v1",
+        "license_id": "lic-art-xiaohe-meiping-v1",
+        "created_by": "designer:stamp-studio:主设岗",
+        "ornament_text": "腹部绘萧何月下追韩信历史人物故事"
+      },
+      "digest": "2330cfa39e28e072e0ef9a964893e4c406bd3f13247ae5d2d784584bde93d2fd"
+    },
+    {
+      "seq": 27,
+      "at": "2025-02-10T09:03:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "design.approved",
+      "payload": {
+        "id": "approval-2-r1",
+        "design_id": "design-2",
+        "revision": 1,
+        "decided_at": "2025-02-12T10:00:00Z",
+        "approver": "manager:stamp-office:发行项目岗",
+        "decision": "approved",
+        "remark": "构图与纹饰核对无误，同意付印",
+        "basis_refs": [
+          "img-art-xiaohe-meiping-v1",
+          "lic-art-xiaohe-meiping-v1"
+        ]
+      },
+      "digest": "d8541f12383a7836665ea800aa23480863ca3170ee60cf3a6513570fc51d1458"
+    },
+    {
+      "seq": 28,
+      "at": "2025-02-10T09:04:00Z",
+      "actor": "designer:stamp-studio:主设岗",
+      "action": "design.created",
+      "payload": {
+        "id": "design-3",
+        "artifact_id": "art-siai-meiping",
+        "title": "元青花·四爱图",
+        "revision": 1,
+        "image_id": "img-art-siai-meiping-v1",
+        "license_id": "lic-art-siai-meiping-v1",
+        "created_by": "designer:stamp-studio:主设岗",
+        "ornament_text": "肩部四组菱形开光，分绘王羲之爱兰等四爱图"
+      },
+      "digest": "07635cef12e70457bfa089f31ccb579921ce1af0c8aa93c1ba95c4b855a89573"
+    },
+    {
+      "seq": 29,
+      "at": "2025-02-10T09:05:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "design.approved",
+      "payload": {
+        "id": "approval-3-r1",
+        "design_id": "design-3",
+        "revision": 1,
+        "decided_at": "2025-02-12T10:00:00Z",
+        "approver": "manager:stamp-office:发行项目岗",
+        "decision": "approved",
+        "remark": "构图与纹饰核对无误，同意付印",
+        "basis_refs": [
+          "img-art-siai-meiping-v1",
+          "lic-art-siai-meiping-v1"
+        ]
+      },
+      "digest": "89c3e648d1cd80625c3cbae9de4df6265307515ef2b6c49b900a9ebf845ac260"
+    },
+    {
+      "seq": 30,
+      "at": "2025-02-10T09:06:00Z",
+      "actor": "designer:stamp-studio:主设岗",
+      "action": "design.created",
+      "payload": {
+        "id": "design-4",
+        "artifact_id": "art-gaoyao-lidded",
+        "title": "元青花·云龙带盖梅瓶",
+        "revision": 1,
+        "image_id": "img-art-gaoyao-lidded-v1",
+        "license_id": "lic-art-gaoyao-lidded-v1",
+        "created_by": "designer:stamp-studio:主设岗",
+        "ornament_text": "器身云龙纹，盖饰印花卷草"
+      },
+      "digest": "87487e61cd8dac56ccd18bfb6335049189c43dbc350c20c89ea2f8f626c1079a"
+    },
+    {
+      "seq": 31,
+      "at": "2025-02-10T09:07:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "design.approved",
+      "payload": {
+        "id": "approval-4-r1",
+        "design_id": "design-4",
+        "revision": 1,
+        "decided_at": "2025-02-12T10:00:00Z",
+        "approver": "manager:stamp-office:发行项目岗",
+        "decision": "approved",
+        "remark": "构图与纹饰核对无误，同意付印",
+        "basis_refs": [
+          "img-art-gaoyao-lidded-v1",
+          "lic-art-gaoyao-lidded-v1"
+        ]
+      },
+      "digest": "70c70b8e1a37eb81e6f1d24b4a1e985efc889c87dedf6f59af197c76dfd3baff"
+    },
+    {
+      "seq": 32,
+      "at": "2025-02-10T09:08:00Z",
+      "actor": "designer:stamp-studio:主设岗",
+      "action": "design.created",
+      "payload": {
+        "id": "design-5",
+        "artifact_id": "art-iran-phoenix-plate",
+        "title": "元青花·云肩凤纹大盘",
+        "revision": 1,
+        "image_id": "img-art-iran-phoenix-plate-v1",
+        "license_id": "lic-art-iran-phoenix-plate-v1",
+        "created_by": "designer:stamp-studio:主设岗",
+        "ornament_text": "菱花口，云肩形开光内绘双凤，地子留白反侧"
+      },
+      "digest": "978234a5699b2097631d59d679f8c2a2cf8361f4b2812d7bc85fb1cfa7b51c91"
+    },
+    {
+      "seq": 33,
+      "at": "2025-02-10T09:09:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "design.approved",
+      "payload": {
+        "id": "approval-5-r1",
+        "design_id": "design-5",
+        "revision": 1,
+        "decided_at": "2025-02-12T10:00:00Z",
+        "approver": "manager:stamp-office:发行项目岗",
+        "decision": "approved",
+        "remark": "构图与纹饰核对无误，同意付印",
+        "basis_refs": [
+          "img-art-iran-phoenix-plate-v1",
+          "lic-art-iran-phoenix-plate-v1"
+        ]
+      },
+      "digest": "f6605074b6b53bf7a461e70c247a653ec909cbfa3f6eb85a20a11bf79b84bc5b"
+    },
+    {
+      "seq": 34,
+      "at": "2025-02-10T09:10:00Z",
+      "actor": "designer:stamp-studio:主设岗",
+      "action": "design.created",
+      "payload": {
+        "id": "design-6",
+        "artifact_id": "art-iran-peony-jar",
+        "title": "元青花·牡丹云龙罐",
+        "revision": 1,
+        "image_id": "img-art-iran-peony-jar-v1",
+        "license_id": "lic-art-iran-peony-jar-v1",
+        "created_by": "designer:stamp-studio:主设岗",
+        "ornament_text": "下腹云龙，上腹缠枝牡丹"
+      },
+      "digest": "490a28c64226c2d2c02d5e334521f83b8b42588a38e56a4a311f532f214067e5"
+    },
+    {
+      "seq": 35,
+      "at": "2025-02-10T09:11:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "design.approved",
+      "payload": {
+        "id": "approval-6-r1",
+        "design_id": "design-6",
+        "revision": 1,
+        "decided_at": "2025-02-12T10:00:00Z",
+        "approver": "manager:stamp-office:发行项目岗",
+        "decision": "approved",
+        "remark": "构图与纹饰核对无误，同意付印",
+        "basis_refs": [
+          "img-art-iran-peony-jar-v1",
+          "lic-art-iran-peony-jar-v1"
+        ]
+      },
+      "digest": "5230135e69fae879a3cd8bc55b65e45839ac63fc4404c063df31be7baf0a1e31"
+    },
+    {
+      "seq": 36,
+      "at": "2025-03-03T09:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "stamp-1",
+        "kind": "stamp",
+        "design_id": "design-1",
+        "artifact_id": "art-guwan-peony-jar",
+        "series": "2025-yuan-stamp-1",
+        "reissue_of": null
+      },
+      "digest": "037e840c3184db7b95674bec726e5111bba4652352639bdf1bce9d3e71add663"
+    },
+    {
+      "seq": 37,
+      "at": "2025-03-03T09:01:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-stamp-1",
+        "material_id": "stamp-1",
+        "frozen_at": "2025-03-03T09:01:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-guwan-peony-jar-v1",
+        "image_version": 1,
+        "license_id": "lic-art-guwan-peony-jar-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-1-r1",
+        "approval_digests": [
+          "efd09a1ae530"
+        ]
+      },
+      "digest": "902fc8d8d0e9f9cbd887617e0fffa4ce1cadd5cc5610e004e907b9d0aebcf382"
+    },
+    {
+      "seq": 38,
+      "at": "2025-03-03T09:02:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "stamp-2",
+        "kind": "stamp",
+        "design_id": "design-2",
+        "artifact_id": "art-xiaohe-meiping",
+        "series": "2025-yuan-stamp-2",
+        "reissue_of": null
+      },
+      "digest": "85eac3c02ef32dcab549373630363d0879e1ffc3d9699da661fadea493312ab7"
+    },
+    {
+      "seq": 39,
+      "at": "2025-03-03T09:03:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-stamp-2",
+        "material_id": "stamp-2",
+        "frozen_at": "2025-03-03T09:03:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-xiaohe-meiping-v1",
+        "image_version": 1,
+        "license_id": "lic-art-xiaohe-meiping-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-2-r1",
+        "approval_digests": [
+          "62d338a3f779"
+        ]
+      },
+      "digest": "c2396514e53c7a130f8cec22ff281601b87506dec4d80734f9cd71fdfa58cb49"
+    },
+    {
+      "seq": 40,
+      "at": "2025-03-03T09:04:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "stamp-3",
+        "kind": "stamp",
+        "design_id": "design-3",
+        "artifact_id": "art-siai-meiping",
+        "series": "2025-yuan-stamp-3",
+        "reissue_of": null
+      },
+      "digest": "8b913449e8b77e7dfb895ce455da7b9116293461d1e22ed2af01e12ed48c2a9b"
+    },
+    {
+      "seq": 41,
+      "at": "2025-03-03T09:05:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-stamp-3",
+        "material_id": "stamp-3",
+        "frozen_at": "2025-03-03T09:05:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-siai-meiping-v1",
+        "image_version": 1,
+        "license_id": "lic-art-siai-meiping-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-3-r1",
+        "approval_digests": [
+          "70e2b9297ccf"
+        ]
+      },
+      "digest": "d58cec03d1aec5b02e663e8e993bd6fd5b918cb7f5188735df57a63f57279ec1"
+    },
+    {
+      "seq": 42,
+      "at": "2025-03-03T09:06:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "stamp-4",
+        "kind": "stamp",
+        "design_id": "design-4",
+        "artifact_id": "art-gaoyao-lidded",
+        "series": "2025-yuan-stamp-4",
+        "reissue_of": null
+      },
+      "digest": "1550d72298b08cf5058dc67fb164f50b9b16c76d7cbfceb3959de5dd1909fdbc"
+    },
+    {
+      "seq": 43,
+      "at": "2025-03-03T09:07:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-stamp-4",
+        "material_id": "stamp-4",
+        "frozen_at": "2025-03-03T09:07:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-gaoyao-lidded-v1",
+        "image_version": 1,
+        "license_id": "lic-art-gaoyao-lidded-v1",
+        "license_valid_until": "2025-06-30T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-4-r1",
+        "approval_digests": [
+          "a2a81f304516"
+        ]
+      },
+      "digest": "a8a6c20135615df64da1e7d483cc9e3a3ac72816bfb1ba77076c53f80adea644"
+    },
+    {
+      "seq": 44,
+      "at": "2025-03-03T09:08:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "stamp-5",
+        "kind": "stamp",
+        "design_id": "design-5",
+        "artifact_id": "art-iran-phoenix-plate",
+        "series": "2025-yuan-stamp-5",
+        "reissue_of": null
+      },
+      "digest": "c208ef0180bbdaa65c12c524e0c4cb0fd48b1c86ff1500e3e8b04e035df7f8bb"
+    },
+    {
+      "seq": 45,
+      "at": "2025-03-03T09:09:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-stamp-5",
+        "material_id": "stamp-5",
+        "frozen_at": "2025-03-03T09:09:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-iran-phoenix-plate-v1",
+        "image_version": 1,
+        "license_id": "lic-art-iran-phoenix-plate-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-5-r1",
+        "approval_digests": [
+          "9a0c99033dde"
+        ]
+      },
+      "digest": "e207e946983f65ca2c18757c100aadee3ab21b349e13bb741c13295846aa9c94"
+    },
+    {
+      "seq": 46,
+      "at": "2025-03-03T09:10:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "souvenir-sheet",
+        "kind": "souvenir_sheet",
+        "design_id": "design-6",
+        "artifact_id": "art-iran-peony-jar",
+        "series": "2025-yuan-souvenir-sheet",
+        "reissue_of": null
+      },
+      "digest": "9a4c7755f6d1a3f62cdde7b4581d464dcc928ce02bf58369060a10c02e1f3032"
+    },
+    {
+      "seq": 47,
+      "at": "2025-03-03T09:11:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-souvenir-sheet",
+        "material_id": "souvenir-sheet",
+        "frozen_at": "2025-03-03T09:11:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-iran-peony-jar-v1",
+        "image_version": 1,
+        "license_id": "lic-art-iran-peony-jar-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-6-r1",
+        "approval_digests": [
+          "8f3d030e0c20"
+        ]
+      },
+      "digest": "959945b5f1960eec26ec72b5750ff30f58f6ab77ff71acec54f1da3348d88e31"
+    },
+    {
+      "seq": 48,
+      "at": "2025-03-03T09:12:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "fdc-1",
+        "kind": "first_day_cover",
+        "design_id": "design-1",
+        "artifact_id": "art-guwan-peony-jar",
+        "series": "fdc-1",
+        "reissue_of": null
+      },
+      "digest": "c4ee3a35546512fa86be62d971e5c8693224d2eac038564031b83fc4afa477cd"
+    },
+    {
+      "seq": 49,
+      "at": "2025-03-03T09:13:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-fdc-1",
+        "material_id": "fdc-1",
+        "frozen_at": "2025-03-03T09:13:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-guwan-peony-jar-v1",
+        "image_version": 1,
+        "license_id": "lic-art-guwan-peony-jar-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-1-r1",
+        "approval_digests": [
+          "efd09a1ae530"
+        ]
+      },
+      "digest": "f995c5474c336ce32223213cf12d65301d62b1d3581bb4b1bdd16184e62f088e"
+    },
+    {
+      "seq": 50,
+      "at": "2025-03-03T09:14:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "fdc-2",
+        "kind": "first_day_cover",
+        "design_id": "design-2",
+        "artifact_id": "art-xiaohe-meiping",
+        "series": "fdc-2",
+        "reissue_of": null
+      },
+      "digest": "103c9f9a013c4f6f20819b80bcb29d556335b66d63ec23699bd8b895ca183341"
+    },
+    {
+      "seq": 51,
+      "at": "2025-03-03T09:15:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-fdc-2",
+        "material_id": "fdc-2",
+        "frozen_at": "2025-03-03T09:15:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-xiaohe-meiping-v1",
+        "image_version": 1,
+        "license_id": "lic-art-xiaohe-meiping-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-2-r1",
+        "approval_digests": [
+          "62d338a3f779"
+        ]
+      },
+      "digest": "a4fbea55be833b5b5b2d455a054c0fedb061d55d7c59371bc1911611cf2428f3"
+    },
+    {
+      "seq": 52,
+      "at": "2025-03-03T09:16:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "fdc-3",
+        "kind": "first_day_cover",
+        "design_id": "design-3",
+        "artifact_id": "art-siai-meiping",
+        "series": "fdc-3",
+        "reissue_of": null
+      },
+      "digest": "777026a143410720d7201557196246e0c5698bd8ae9ca87d1593310befbdf981"
+    },
+    {
+      "seq": 53,
+      "at": "2025-03-03T09:17:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-fdc-3",
+        "material_id": "fdc-3",
+        "frozen_at": "2025-03-03T09:17:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-siai-meiping-v1",
+        "image_version": 1,
+        "license_id": "lic-art-siai-meiping-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-3-r1",
+        "approval_digests": [
+          "70e2b9297ccf"
+        ]
+      },
+      "digest": "1669dcc06d16d7945d9fe640033e61b675d8fff3e4392d9dfd8bf8253fff7b6d"
+    },
+    {
+      "seq": 54,
+      "at": "2025-03-03T09:18:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "fdc-4",
+        "kind": "first_day_cover",
+        "design_id": "design-4",
+        "artifact_id": "art-gaoyao-lidded",
+        "series": "fdc-4",
+        "reissue_of": null
+      },
+      "digest": "e931f2288b02322b837f64e9e774b0a8557bcefbf423a5a195df2ffe7d695592"
+    },
+    {
+      "seq": 55,
+      "at": "2025-03-03T09:19:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-fdc-4",
+        "material_id": "fdc-4",
+        "frozen_at": "2025-03-03T09:19:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-gaoyao-lidded-v1",
+        "image_version": 1,
+        "license_id": "lic-art-gaoyao-lidded-v1",
+        "license_valid_until": "2025-06-30T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-4-r1",
+        "approval_digests": [
+          "a2a81f304516"
+        ]
+      },
+      "digest": "a0a675e536a182ef428e95f676655ed01bca1b4daa60f69b82642466b5192d5e"
+    },
+    {
+      "seq": 56,
+      "at": "2025-03-03T09:20:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "fdc-5",
+        "kind": "first_day_cover",
+        "design_id": "design-5",
+        "artifact_id": "art-iran-phoenix-plate",
+        "series": "fdc-5",
+        "reissue_of": null
+      },
+      "digest": "83b7db8f4a57ee23071ca40647c6a043378f12fad431ef543ee0e745373bfcfc"
+    },
+    {
+      "seq": 57,
+      "at": "2025-03-03T09:21:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-fdc-5",
+        "material_id": "fdc-5",
+        "frozen_at": "2025-03-03T09:21:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-iran-phoenix-plate-v1",
+        "image_version": 1,
+        "license_id": "lic-art-iran-phoenix-plate-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-5-r1",
+        "approval_digests": [
+          "9a0c99033dde"
+        ]
+      },
+      "digest": "25b8a9a356545716e37dac60318b1152dc79a886170c81b1e1d76a4843f81988"
+    },
+    {
+      "seq": 58,
+      "at": "2025-03-03T09:22:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "fdc-sheet",
+        "kind": "first_day_cover",
+        "design_id": "design-6",
+        "artifact_id": "art-iran-peony-jar",
+        "series": "fdc-sheet",
+        "reissue_of": null
+      },
+      "digest": "f5bc904219c59a989ec71e6d87db3cfc2c56d746a33910ec01120c16d54fb8bd"
+    },
+    {
+      "seq": 59,
+      "at": "2025-03-03T09:23:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-fdc-sheet",
+        "material_id": "fdc-sheet",
+        "frozen_at": "2025-03-03T09:23:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-iran-peony-jar-v1",
+        "image_version": 1,
+        "license_id": "lic-art-iran-peony-jar-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-6-r1",
+        "approval_digests": [
+          "8f3d030e0c20"
+        ]
+      },
+      "digest": "2c5601e72b87a46af8e720f687cdcbe7f20764a0f712767ade49951c4776363d"
+    },
+    {
+      "seq": 60,
+      "at": "2025-03-03T09:24:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "brochure",
+        "kind": "brochure",
+        "design_id": "design-1",
+        "artifact_id": "art-guwan-peony-jar",
+        "series": "brochure",
+        "reissue_of": null
+      },
+      "digest": "b60db71a53b225bb97b506e1ebd69102941c7eea084ae0417941ec5933f0de8a"
+    },
+    {
+      "seq": 61,
+      "at": "2025-03-03T09:25:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-brochure",
+        "material_id": "brochure",
+        "frozen_at": "2025-03-03T09:25:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-guwan-peony-jar-v1",
+        "image_version": 1,
+        "license_id": "lic-art-guwan-peony-jar-v1",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 1,
+        "approval_id": "approval-1-r1",
+        "approval_digests": [
+          "efd09a1ae530"
+        ]
+      },
+      "digest": "2cb553090dedc65d686a933782ed2acceb85f96a67f891242135d72ce4d5ff8d"
+    },
+    {
+      "seq": 62,
+      "at": "2025-03-10T08:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "batch.opened",
+      "payload": {
+        "id": "batch-stamp1-01",
+        "material_id": "stamp-1",
+        "quantity": 1200000,
+        "process_note": "影写版六色套印，背面胶印"
+      },
+      "digest": "13fd108f0c39866a46b3458ee3ae2c53c25a3d70a1ed66c623b24a93f9460ec7"
+    },
+    {
+      "seq": 63,
+      "at": "2025-03-10T08:01:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.completed",
+      "payload": {
+        "id": "batch-stamp1-01"
+      },
+      "digest": "3e10f334b5ce079596539e65cc9ef6b53a97dbac40696f99bac9ebf23dc3639b"
+    },
+    {
+      "seq": 64,
+      "at": "2025-03-10T08:02:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-stamp1-01",
+        "receipt_id": "rc-stamp1-01-a",
+        "count": 800000
+      },
+      "digest": "51b7b192996c8d6ce7072f5bffe6b49aaa53a8bdac115d72528c526a40141bfc"
+    },
+    {
+      "seq": 65,
+      "at": "2025-03-10T08:03:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-stamp1-01",
+        "receipt_id": "rc-stamp1-01-b",
+        "count": 300000
+      },
+      "digest": "48aadc4d5a88efdff4ed3a22416db1a533c3418203e1f42df15e48bd83975a6d"
+    },
+    {
+      "seq": 66,
+      "at": "2025-03-10T08:04:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_duplicate",
+      "payload": {
+        "batch_id": "batch-stamp1-01",
+        "receipt_id": "rc-stamp1-01-a"
+      },
+      "digest": "2dfbc3a0fde94c7fd77e3c965c9a1652ff804b368be4e958493cdf236efd8185"
+    },
+    {
+      "seq": 67,
+      "at": "2025-03-10T08:05:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "batch.opened",
+      "payload": {
+        "id": "batch-stamp2-01",
+        "material_id": "stamp-2",
+        "quantity": 1200000,
+        "process_note": "影写版六色套印"
+      },
+      "digest": "0587dc04a4e9198e68057b477c1b12825707781d6e106645ca4dfaa8b939f94b"
+    },
+    {
+      "seq": 68,
+      "at": "2025-03-10T08:06:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.completed",
+      "payload": {
+        "id": "batch-stamp2-01"
+      },
+      "digest": "4b8658aabd297870265dd292f5748c5acbe94b539dac5af6f93354c4ec5d1265"
+    },
+    {
+      "seq": 69,
+      "at": "2025-03-10T08:07:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-stamp2-01",
+        "receipt_id": "rc-stamp2-01-a",
+        "count": 600000
+      },
+      "digest": "bfbb216a514d82b220da19b86061b06e50f724226b6ae229eb5cc27609fead36"
+    },
+    {
+      "seq": 70,
+      "at": "2025-03-10T08:08:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "batch.opened",
+      "payload": {
+        "id": "batch-stamp3-01",
+        "material_id": "stamp-3",
+        "quantity": 1200000,
+        "process_note": "影写版六色套印"
+      },
+      "digest": "8363039cad813060d114b6752d4b36e56bff3cacdfa346cdedf1b0daba8456db"
+    },
+    {
+      "seq": 71,
+      "at": "2025-03-10T08:09:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.completed",
+      "payload": {
+        "id": "batch-stamp3-01"
+      },
+      "digest": "06dedffdcc6b77d1838d73b2ef74d3275c38d19ca53e1a88ec9a177547b05bb5"
+    },
+    {
+      "seq": 72,
+      "at": "2025-03-10T08:10:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-stamp3-01",
+        "receipt_id": "rc-stamp3-01-a",
+        "count": 500000
+      },
+      "digest": "a7397b03c2b6fcc285de294034a22f83ef4c7b584e7da5389caff38ebc3b33a2"
+    },
+    {
+      "seq": 73,
+      "at": "2025-03-10T08:11:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "batch.opened",
+      "payload": {
+        "id": "batch-sheet-01",
+        "material_id": "souvenir-sheet",
+        "quantity": 900000,
+        "process_note": "影写版加雕刻凹版，边饰起凸"
+      },
+      "digest": "9f3eaf41518fd6ff6ab79ebd31e15607adc38ab807d16a889ea66c2da5813246"
+    },
+    {
+      "seq": 74,
+      "at": "2025-03-10T08:12:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.completed",
+      "payload": {
+        "id": "batch-sheet-01"
+      },
+      "digest": "55c687a094a3f35bdb3ebaf328c6e636da4557f91d5985975cff8d34d5869aca"
+    },
+    {
+      "seq": 75,
+      "at": "2025-03-10T08:13:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-sheet-01",
+        "receipt_id": "rc-sheet-01-a",
+        "count": 400000
+      },
+      "digest": "d3d96f8e8a4297ee5ee2cc2b072af66f1695135f08535ccdd8729a53a95bed2e"
+    },
+    {
+      "seq": 76,
+      "at": "2025-03-10T08:14:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "batch.opened",
+      "payload": {
+        "id": "batch-fdc1-01",
+        "material_id": "fdc-1",
+        "quantity": 200000,
+        "process_note": "信封起凸烫银，钤首日纪念邮戳图案版"
+      },
+      "digest": "06b359e3ed9a7162b44a42f5046877fb3a08a8d92b898f7b8c17b2ae21d9aa45"
+    },
+    {
+      "seq": 77,
+      "at": "2025-03-10T08:15:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.completed",
+      "payload": {
+        "id": "batch-fdc1-01"
+      },
+      "digest": "7b4a05dfdbe55c421644e1b5fb74901d73d80ec4e1149af8720b81d4dde4ebd4"
+    },
+    {
+      "seq": 78,
+      "at": "2025-03-10T08:16:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-fdc1-01",
+        "receipt_id": "rc-fdc1-01-a",
+        "count": 120000
+      },
+      "digest": "2282ace45c3740567855778399aa737f78a60d6850fd5553da00dd6daeaf60a4"
+    },
+    {
+      "seq": 79,
+      "at": "2025-04-15T09:00:00Z",
+      "actor": "museum:njmuseum:藏品保管岗",
+      "action": "image.added",
+      "payload": {
+        "id": "img-art-xiaohe-meiping-v2",
+        "artifact_id": "art-xiaohe-meiping",
+        "version": 2,
+        "created_at": "2025-04-15T09:00:00Z",
+        "note": "馆方复核后更换为修复完成状态的新摄影底图",
+        "supersedes": "img-art-xiaohe-meiping-v1"
+      },
+      "digest": "b46baac93832b277c8b39310b5b986d8ceb8e40f63a1243047010adeec376583"
+    },
+    {
+      "seq": 80,
+      "at": "2025-04-15T09:01:00Z",
+      "actor": "museum:njmuseum:藏品保管岗",
+      "action": "hold.opened",
+      "payload": {
+        "id": "hold-img-img-art-xiaohe-meiping-v2",
+        "reason": "image_correction",
+        "target_type": "image",
+        "target_id": "img-art-xiaohe-meiping-v2",
+        "detail": "图像更正为 img-art-xiaohe-meiping-v2，后续发行暂停以待重新审批"
+      },
+      "digest": "3354805e338789f503485b6f876bc68ce9f65c65ae9737a17fe4a454d79817be"
+    },
+    {
+      "seq": 81,
+      "at": "2025-04-15T09:02:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "license.granted",
+      "payload": {
+        "id": "lic-art-xiaohe-meiping-v2",
+        "image_id": "img-art-xiaohe-meiping-v2",
+        "museum_id": "njmuseum",
+        "scope": "stamp,first_day_cover",
+        "granted_at": "2025-04-16",
+        "valid_from": "2025-04-16T00:00:00Z",
+        "valid_until": "2026-12-31T23:59:59Z"
+      },
+      "digest": "97fd4e4e470e3f69e9c68343bcaca9c57d27eef4b11d0fe62e765555e1b7c568"
+    },
+    {
+      "seq": 82,
+      "at": "2025-04-15T09:03:00Z",
+      "actor": "designer:stamp-studio:主设岗",
+      "action": "design.revised",
+      "payload": {
+        "id": "design-2",
+        "revision": 2,
+        "image_id": "img-art-xiaohe-meiping-v2",
+        "license_id": "lic-art-xiaohe-meiping-v2",
+        "ornament_text": "腹部绘萧何月下追韩信历史人物故事"
+      },
+      "digest": "341bba201e5cd1f1c285343af2ec8ea691766c2d6d906f7f6cfe7dc27c9f85ec"
+    },
+    {
+      "seq": 83,
+      "at": "2025-04-15T09:04:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "design.approved",
+      "payload": {
+        "id": "approval-2-r2",
+        "design_id": "design-2",
+        "revision": 2,
+        "decided_at": "2025-04-20T10:00:00Z",
+        "approver": "manager:stamp-office:发行项目岗",
+        "decision": "approved",
+        "remark": "采用馆方更正底图，纹饰说明同步复核",
+        "basis_refs": [
+          "img-art-xiaohe-meiping-v2",
+          "lic-art-xiaohe-meiping-v2"
+        ]
+      },
+      "digest": "92d27e39ae2ff9d932353b54eafe68c3bb78fe57698e16c4b44565a29206c053"
+    },
+    {
+      "seq": 84,
+      "at": "2025-04-15T09:05:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "hold.resolved",
+      "payload": {
+        "id": "hold-img-img-art-xiaohe-meiping-v2",
+        "resolution": "已按更正图像 img-art-xiaohe-meiping-v2 重新审批"
+      },
+      "digest": "712a8413ed206c4dd03ead629561b52127694a7e3bd679178a0fca6b5ea80acd"
+    },
+    {
+      "seq": 85,
+      "at": "2025-04-15T09:06:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "stamp-2-r2",
+        "kind": "stamp",
+        "design_id": "design-2",
+        "artifact_id": "art-xiaohe-meiping",
+        "series": "2025-yuan-stamp-2",
+        "reissue_of": "stamp-2"
+      },
+      "digest": "897cead41b4bdd0bc85615cce4978a249082a87b2507b73685d07d869811ab50"
+    },
+    {
+      "seq": 86,
+      "at": "2025-04-15T09:07:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-stamp-2-r2",
+        "material_id": "stamp-2-r2",
+        "frozen_at": "2025-04-15T09:07:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-xiaohe-meiping-v2",
+        "image_version": 2,
+        "license_id": "lic-art-xiaohe-meiping-v2",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 2,
+        "approval_id": "approval-2-r2",
+        "approval_digests": [
+          "62d338a3f779",
+          "e38125c72ed0"
+        ]
+      },
+      "digest": "d5ab6b08f8182184ae59daa49155bd0ad2cea549e6dc1aaa60ce9e955800b3cf"
+    },
+    {
+      "seq": 87,
+      "at": "2025-04-15T09:08:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.created",
+      "payload": {
+        "id": "fdc-2-r2",
+        "kind": "first_day_cover",
+        "design_id": "design-2",
+        "artifact_id": "art-xiaohe-meiping",
+        "series": "2025-yuan-stamp-2-fdc",
+        "reissue_of": "fdc-2"
+      },
+      "digest": "c1c82ddd827fe5ed4c29af87f3fac8fb85e5b061469097123975a27c614e96b9"
+    },
+    {
+      "seq": 88,
+      "at": "2025-04-15T09:09:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "material.frozen",
+      "payload": {
+        "id": "freeze-fdc-2-r2",
+        "material_id": "fdc-2-r2",
+        "frozen_at": "2025-04-15T09:09:00Z",
+        "artifact_version": 1,
+        "image_id": "img-art-xiaohe-meiping-v2",
+        "image_version": 2,
+        "license_id": "lic-art-xiaohe-meiping-v2",
+        "license_valid_until": "2026-12-31T23:59:59Z",
+        "design_revision": 2,
+        "approval_id": "approval-2-r2",
+        "approval_digests": [
+          "62d338a3f779",
+          "e38125c72ed0"
+        ]
+      },
+      "digest": "eb9008c99e29f3cec514d7fbf6c4a1586ea2c67a3ae8bfec06891daae9bbf692"
+    },
+    {
+      "seq": 89,
+      "at": "2025-04-25T08:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "batch.opened",
+      "payload": {
+        "id": "batch-stamp2-02",
+        "material_id": "stamp-2-r2",
+        "quantity": 800000,
+        "process_note": "影写版六色套印"
+      },
+      "digest": "58df05b9ba3ed52558881e71ba7273070bf65b635d56669ec93f6d7ce5771709"
+    },
+    {
+      "seq": 90,
+      "at": "2025-04-25T08:01:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.completed",
+      "payload": {
+        "id": "batch-stamp2-02"
+      },
+      "digest": "be91ea257298c1efdc4e38c53e5ce69a1ab271a062a07c468570a8f7a18de662"
+    },
+    {
+      "seq": 91,
+      "at": "2025-04-25T08:02:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-stamp2-02",
+        "receipt_id": "rc-stamp2-02-a",
+        "count": 500000
+      },
+      "digest": "af58b73bfba5dcbd3b1225b4ac7a6f92b48d7cf7a0436d66388bde8252bbb539"
+    },
+    {
+      "seq": 92,
+      "at": "2025-04-25T08:03:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "batch.opened",
+      "payload": {
+        "id": "batch-fdc2-02",
+        "material_id": "fdc-2-r2",
+        "quantity": 150000,
+        "process_note": "信封起凸烫银"
+      },
+      "digest": "eda196c9af638f993ae2d353aa88f1970f0b2ec7a68cc50240ebee610ad460ba"
+    },
+    {
+      "seq": 93,
+      "at": "2025-04-25T08:04:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.completed",
+      "payload": {
+        "id": "batch-fdc2-02"
+      },
+      "digest": "1b34531668854ee55f7615abed929f29dbf35e80c68b0f32e9f6248b02fae6f1"
+    },
+    {
+      "seq": 94,
+      "at": "2025-04-25T08:05:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-fdc2-02",
+        "receipt_id": "rc-fdc2-02-a",
+        "count": 90000
+      },
+      "digest": "312786b7cb3f35d42abbd034893a7f29f7c1e4400452f0828e326b0cd0317342"
+    },
+    {
+      "seq": 95,
+      "at": "2025-07-02T09:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "license.expired",
+      "payload": {
+        "id": "lic-art-gaoyao-lidded-v1"
+      },
+      "digest": "be785f7d080b14e4e033af98c54167d3791aba156cb7db15a3e4f7aff47ed87d"
+    },
+    {
+      "seq": 96,
+      "at": "2025-07-02T09:01:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "hold.opened",
+      "payload": {
+        "id": "hold-license-lic-art-gaoyao-lidded-v1",
+        "reason": "license_expiry",
+        "target_type": "license",
+        "target_id": "lic-art-gaoyao-lidded-v1",
+        "detail": "授权 lic-art-gaoyao-lidded-v1 到期，后续发行暂停"
+      },
+      "digest": "bcebe3f385622d16c4f29825c5e62800ac624c974f5825d32e002c2da704be50"
+    },
+    {
+      "seq": 97,
+      "at": "2025-07-05T09:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "license.renewed",
+      "payload": {
+        "id": "lic-art-gaoyao-lidded-v1",
+        "valid_from": "2025-07-05T00:00:00Z",
+        "valid_until": "2027-06-30T23:59:59Z",
+        "previous_valid_until": "2025-06-30T23:59:59Z"
+      },
+      "digest": "016ba40b6fef68d69a89d15220730a5c82165d2b6b81782e514f813c88d2bed2"
+    },
+    {
+      "seq": 98,
+      "at": "2025-07-05T09:01:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "hold.resolved",
+      "payload": {
+        "id": "hold-license-lic-art-gaoyao-lidded-v1",
+        "resolution": "授权续期至 2027-06-30T23:59:59Z"
+      },
+      "digest": "a3513734041cca50a522f68cca364fc8b40290bc51292bed317095335e310586"
+    },
+    {
+      "seq": 99,
+      "at": "2025-07-08T08:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "batch.opened",
+      "payload": {
+        "id": "batch-stamp4-02",
+        "material_id": "stamp-4",
+        "quantity": 600000,
+        "process_note": "影写版六色套印"
+      },
+      "digest": "5d2c6e4323758244dc937e7a607fde19513cd11cfcef683467d7d8c68201be5a"
+    },
+    {
+      "seq": 100,
+      "at": "2025-07-08T08:01:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.completed",
+      "payload": {
+        "id": "batch-stamp4-02"
+      },
+      "digest": "d1b41adb9254b72b0fe28775fb1f2416faedf19f249e6d3b0b3ddf1b7b92c1dd"
+    },
+    {
+      "seq": 101,
+      "at": "2025-07-08T08:02:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-stamp4-02",
+        "receipt_id": "rc-stamp4-02-a",
+        "count": 300000
+      },
+      "digest": "ee6daf5482a741f5ce7a0f8dc97a0b3dde6bc3ad01512020f40c660bd0498a1b"
+    },
+    {
+      "seq": 102,
+      "at": "2025-08-10T09:00:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "hold.opened",
+      "payload": {
+        "id": "hold-batch-batch-sheet-01",
+        "reason": "batch_anomaly",
+        "target_type": "batch",
+        "target_id": "batch-sheet-01",
+        "detail": "抽检发现局部背胶漏涂、蓝发色差超限，已暂停该批后续发货（示例）"
+      },
+      "digest": "7b8c0e53d0d7510eab572cdbb22848b238d6de907b721f01efa1b71ddc054531"
+    },
+    {
+      "seq": 103,
+      "at": "2025-08-18T09:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "hold.resolved",
+      "payload": {
+        "id": "hold-batch-batch-sheet-01",
+        "resolution": "隔离异常品3000枚并单独登记，余品复检合格，恢复发行"
+      },
+      "digest": "70c3f5991ed2610e8e92bc5a3ff1113b9dce8613767a46defa09ed58fb8c483c"
+    },
+    {
+      "seq": 104,
+      "at": "2025-08-20T08:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "batch.opened",
+      "payload": {
+        "id": "batch-sheet-02",
+        "material_id": "souvenir-sheet",
+        "quantity": 300000,
+        "process_note": "影写版加雕刻凹版，边饰起凸"
+      },
+      "digest": "73c0a327acd1af5652827cfdd9c8b113ae597c78aebfd957d580474d7fb1beb3"
+    },
+    {
+      "seq": 105,
+      "at": "2025-08-20T08:01:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.completed",
+      "payload": {
+        "id": "batch-sheet-02"
+      },
+      "digest": "d851fd7e8978ba6b24bb738240d084b6103fcffed01eabc764b5c62d26652b1e"
+    },
+    {
+      "seq": 106,
+      "at": "2025-08-20T08:02:00Z",
+      "actor": "printer:stamp-press:印制跟单岗",
+      "action": "batch.receipt_received",
+      "payload": {
+        "batch_id": "batch-sheet-02",
+        "receipt_id": "rc-sheet-02-a",
+        "count": 180000
+      },
+      "digest": "33b1a24dcd53a8b08d18125838c8ae209ef4ed9ee09d2fe6dcc4e5a91dda65b6"
+    },
+    {
+      "seq": 107,
+      "at": "2025-08-22T09:00:00Z",
+      "actor": "museum:iranmm:藏品保管岗",
+      "action": "review.opened",
+      "payload": {
+        "id": "review-iran-peony-origin",
+        "artifact_id": "art-iran-peony-jar",
+        "summary": "入藏来源在陵寺瓷目抄本与馆方旧登记卡之间编号不一（示例）",
+        "sources": [
+          "阿迪比尔陵寺瓷目抄本（示例）",
+          "馆方1930年代登记卡（示例）"
+        ]
+      },
+      "digest": "fbff0cb5d5381e4a1e3abe0c1295e51bcda1f2852beae179eb4a5a7386ef288e"
+    },
+    {
+      "seq": 108,
+      "at": "2025-08-22T09:01:00Z",
+      "actor": "museum:iranmm:藏品保管岗",
+      "action": "hold.opened",
+      "payload": {
+        "id": "hold-conflict-review-iran-peony-origin",
+        "reason": "conflict",
+        "target_type": "artifact",
+        "target_id": "art-iran-peony-jar",
+        "detail": "资料冲突进入复核：入藏来源在陵寺瓷目抄本与馆方旧登记卡之间编号不一（示例）"
+      },
+      "digest": "3fda96caad37424449aeddc065191d681a7de89d0a1fa185d67faf8e9ec36fa6"
+    },
+    {
+      "seq": 109,
+      "at": "2025-08-28T09:00:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "review.resolved",
+      "payload": {
+        "id": "review-iran-peony-origin",
+        "resolution": "经馆方核对以登记卡编号为准，瓷目抄本异文存档备查（示例）"
+      },
+      "digest": "78f03a8cd04a21b478fef6d2b22b07036b64304efd437ed769b4de4047909356"
+    },
+    {
+      "seq": 110,
+      "at": "2025-08-28T09:01:00Z",
+      "actor": "manager:stamp-office:发行项目岗",
+      "action": "hold.resolved",
+      "payload": {
+        "id": "hold-conflict-review-iran-peony-origin",
+        "resolution": "经馆方核对以登记卡编号为准，瓷目抄本异文存档备查（示例）"
+      },
+      "digest": "e6e5f740654db701ae093be8b054d7bd6a27006326e518039410fe9b5dd4a067"
+    }
+  ]
+}

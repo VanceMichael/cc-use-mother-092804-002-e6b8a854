@@ -1,0 +1,303 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "元青花文物邮票发行档案事件日志",
+  "description": "追加式事件流。seq 从 1 连续递增，digest 为除 digest 外事件内容的 SHA-256；当前状态由事件按序回放得出，事件一经写入不得修改或删除。",
+  "type": "object",
+  "required": ["events"],
+  "additionalProperties": false,
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/event" }
+    }
+  },
+  "$defs": {
+    "actor": {
+      "type": "string",
+      "pattern": "^(manager|museum|designer|printer|public):",
+      "description": "manager 负责人；museum:<机构id>:<姓名> 文博机构；designer:<团队>:<姓名> 设计；printer:<厂商>:<姓名> 印制；public 公众"
+    },
+    "event": {
+      "type": "object",
+      "required": ["seq", "at", "actor", "action", "payload", "digest"],
+      "additionalProperties": false,
+      "properties": {
+        "seq": { "type": "integer", "minimum": 1 },
+        "at": { "type": "string", "format": "date-time" },
+        "actor": { "$ref": "#/$defs/actor" },
+        "action": {
+          "type": "string",
+          "enum": [
+            "museum.registered",
+            "artifact.registered",
+            "artifact.corrected",
+            "review.opened",
+            "review.resolved",
+            "image.added",
+            "license.granted",
+            "license.expired",
+            "license.renewed",
+            "design.created",
+            "design.revised",
+            "design.approved",
+            "material.created",
+            "material.frozen",
+            "batch.opened",
+            "batch.completed",
+            "batch.receipt_received",
+            "batch.receipt_duplicate",
+            "hold.opened",
+            "hold.resolved"
+          ]
+        },
+        "payload": { "type": "object" },
+        "digest": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$",
+          "description": "sha256(json({at, actor, action, payload}, sort_keys, 无空白))"
+        }
+      },
+      "oneOf": [
+        {
+          "properties": { "action": { "const": "museum.registered" }, "payload": {
+            "type": "object", "required": ["id", "name"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "name": { "type": "string", "minLength": 1 },
+              "public_note": { "type": "string" }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "artifact.registered" }, "payload": {
+            "type": "object",
+            "required": ["id", "museum_id", "name", "era", "origin_type", "origin_note", "ornament", "public_description"],
+            "properties": {
+              "id": { "type": "string" },
+              "museum_id": { "type": "string" },
+              "name": { "type": "string" },
+              "era": { "type": "string" },
+              "origin_type": { "enum": ["excavated", "handed_down"] },
+              "origin_note": { "type": "string", "description": "出土或传世来源" },
+              "ornament": { "type": "string", "description": "纹饰说明" },
+              "public_description": { "type": "string" },
+              "internal_note": { "type": "string", "description": "未公开库藏信息，不对公众暴露" }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "artifact.corrected" }, "payload": {
+            "type": "object", "required": ["id", "expected_version", "changes"],
+            "properties": {
+              "id": { "type": "string" },
+              "expected_version": { "type": "integer", "minimum": 1 },
+              "changes": {
+                "type": "object",
+                "minProperties": 1,
+                "properties": {
+                  "name": { "type": "string" },
+                  "era": { "type": "string" },
+                  "origin_type": { "enum": ["excavated", "handed_down"] },
+                  "origin_note": { "type": "string" },
+                  "ornament": { "type": "string" },
+                  "public_description": { "type": "string" },
+                  "internal_note": { "type": "string" }
+                }
+              }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "review.opened" }, "payload": {
+            "type": "object", "required": ["id", "artifact_id", "summary", "sources"],
+            "properties": {
+              "id": { "type": "string" },
+              "artifact_id": { "type": ["string", "null"] },
+              "summary": { "type": "string" },
+              "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "review.resolved" }, "payload": {
+            "type": "object", "required": ["id", "resolution"],
+            "properties": { "id": { "type": "string" }, "resolution": { "type": "string" } }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "image.added" }, "payload": {
+            "type": "object",
+            "required": ["id", "artifact_id", "version", "created_at", "note"],
+            "properties": {
+              "id": { "type": "string" },
+              "artifact_id": { "type": "string" },
+              "version": { "type": "integer", "minimum": 1 },
+              "created_at": { "type": "string" },
+              "note": { "type": "string" },
+              "supersedes": { "type": ["string", "null"], "description": "被更正的旧图像 id" }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "license.granted" }, "payload": {
+            "type": "object",
+            "required": ["id", "image_id", "museum_id", "scope", "granted_at", "valid_from", "valid_until"],
+            "properties": {
+              "id": { "type": "string" },
+              "image_id": { "type": "string" },
+              "museum_id": { "type": "string" },
+              "scope": { "type": "string", "description": "逗号分隔：stamp,souvenir_sheet,first_day_cover,brochure" },
+              "granted_at": { "type": "string" },
+              "valid_from": { "type": "string" },
+              "valid_until": { "type": "string" }
+            }
+          } }
+        },
+        { "properties": { "action": { "const": "license.expired" }, "payload": {
+          "type": "object", "required": ["id"], "properties": { "id": { "type": "string" } }
+        } } },
+        {
+          "properties": { "action": { "const": "license.renewed" }, "payload": {
+            "type": "object",
+            "required": ["id", "valid_from", "valid_until", "previous_valid_until"],
+            "properties": {
+              "id": { "type": "string" },
+              "valid_from": { "type": "string" },
+              "valid_until": { "type": "string" },
+              "previous_valid_until": { "type": "string" }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "design.created" }, "payload": {
+            "type": "object",
+            "required": ["id", "artifact_id", "title", "revision", "image_id", "license_id", "created_by", "ornament_text"],
+            "properties": {
+              "id": { "type": "string" },
+              "artifact_id": { "type": "string" },
+              "title": { "type": "string" },
+              "revision": { "type": "integer", "minimum": 1 },
+              "image_id": { "type": "string" },
+              "license_id": { "type": "string" },
+              "created_by": { "$ref": "#/$defs/actor" },
+              "ornament_text": { "type": "string" }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "design.revised" }, "payload": {
+            "type": "object",
+            "required": ["id", "revision", "image_id", "license_id", "ornament_text"],
+            "properties": {
+              "id": { "type": "string" },
+              "revision": { "type": "integer", "minimum": 2 },
+              "image_id": { "type": "string" },
+              "license_id": { "type": "string" },
+              "ornament_text": { "type": "string" }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "design.approved" }, "payload": {
+            "type": "object",
+            "required": ["id", "design_id", "revision", "decided_at", "approver", "decision", "remark", "basis_refs"],
+            "properties": {
+              "id": { "type": "string" },
+              "design_id": { "type": "string" },
+              "revision": { "type": "integer", "minimum": 1 },
+              "decided_at": { "type": "string" },
+              "approver": { "type": "string" },
+              "decision": { "enum": ["approved", "rejected"] },
+              "remark": { "type": "string" },
+              "basis_refs": { "type": "array", "items": { "type": "string" } }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "material.created" }, "payload": {
+            "type": "object",
+            "required": ["id", "kind", "design_id", "artifact_id"],
+            "properties": {
+              "id": { "type": "string" },
+              "kind": { "enum": ["stamp", "souvenir_sheet", "first_day_cover", "brochure"] },
+              "design_id": { "type": "string" },
+              "artifact_id": { "type": "string" },
+              "series": { "type": "string" },
+              "reissue_of": { "type": ["string", "null"], "description": "换版重印时指向旧版物料" }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "material.frozen" }, "payload": {
+            "type": "object",
+            "required": ["id", "material_id", "frozen_at", "artifact_version", "image_id", "image_version", "license_id", "license_valid_until", "design_revision", "approval_id", "approval_digests"],
+            "properties": {
+              "id": { "type": "string" },
+              "material_id": { "type": "string" },
+              "frozen_at": { "type": "string" },
+              "artifact_version": { "type": "integer", "minimum": 1 },
+              "image_id": { "type": "string" },
+              "image_version": { "type": "integer", "minimum": 1 },
+              "license_id": { "type": "string" },
+              "license_valid_until": { "type": "string" },
+              "design_revision": { "type": "integer", "minimum": 1 },
+              "approval_id": { "type": "string" },
+              "approval_digests": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "batch.opened" }, "payload": {
+            "type": "object",
+            "required": ["id", "material_id", "quantity", "process_note"],
+            "properties": {
+              "id": { "type": "string" },
+              "material_id": { "type": "string" },
+              "quantity": { "type": "integer", "minimum": 1 },
+              "process_note": { "type": "string", "description": "印制工艺，如影写版、雕刻凹版、起凸" }
+            }
+          } }
+        },
+        { "properties": { "action": { "const": "batch.completed" }, "payload": {
+          "type": "object", "required": ["id"], "properties": { "id": { "type": "string" } }
+        } } },
+        {
+          "properties": { "action": { "const": "batch.receipt_received" }, "payload": {
+            "type": "object",
+            "required": ["batch_id", "receipt_id", "count"],
+            "properties": {
+              "batch_id": { "type": "string" },
+              "receipt_id": { "type": "string", "description": "同一 batch_id 下唯一；重复提交记 receipt_duplicate，不扣库存" },
+              "count": { "type": "integer", "minimum": 1 }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "batch.receipt_duplicate" }, "payload": {
+            "type": "object", "required": ["batch_id", "receipt_id"],
+            "properties": { "batch_id": { "type": "string" }, "receipt_id": { "type": "string" } }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "hold.opened" }, "payload": {
+            "type": "object",
+            "required": ["id", "reason", "target_type", "target_id", "detail"],
+            "properties": {
+              "id": { "type": "string" },
+              "reason": { "enum": ["image_correction", "license_expiry", "batch_anomaly", "conflict"] },
+              "target_type": { "enum": ["image", "license", "batch", "artifact"] },
+              "target_id": { "type": "string" },
+              "detail": { "type": "string" }
+            }
+          } }
+        },
+        {
+          "properties": { "action": { "const": "hold.resolved" }, "payload": {
+            "type": "object", "required": ["id", "resolution"],
+            "properties": { "id": { "type": "string" }, "resolution": { "type": "string" } }
+          } }
+        }
+      ]
+    }
+  }
+}
